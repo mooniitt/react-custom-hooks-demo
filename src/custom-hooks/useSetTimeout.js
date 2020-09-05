@@ -10,9 +10,9 @@ const useSetTimeout = (callback, delay) => {
 export default () => {
   const [seconds, setSeconds] = React.useState(1);
 
-  useSetTimeout(() => {
-    setSeconds(2);
-  }, 1000);
+  // useSetTimeout(() => {
+  //   setSeconds(2);
+  // }, 1000);
 
   return <p>{seconds}</p>;
 };

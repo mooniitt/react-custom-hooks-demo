@@ -19,7 +19,7 @@ function App() {
           </option>
         ))}
       </select>
-      <div>{currentHook}</div>
+      {/* <div>{currentHook}</div> */}
     </div>
   );
 }
