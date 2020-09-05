@@ -8,7 +8,7 @@ function App() {
   const [currentHook, setHook] = React.useState(HOOKS[HOOKS_KEY[1]]);
   return (
     <div>
-      <h1>hello !!!!</h1>
+      <h1>hello !!!</h1>
       {/* <select
         onChange={(e) => {
           setHook(HOOKS[e.target.value]);
